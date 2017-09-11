@@ -3,54 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Casa Alexis</title>
-        <style>
-    body {
-        font-family: "Lato", sans-serif;
-        
-    }
-    
-        h1 {
-            text-align: center
-            }
-    .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #2276a3;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-    
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #50d8a8;
-        display: block;
-        transition: 0.3s;
-    }
-    
-    .sidenav a:hover {
-        color: #f1f1f1;
-    }
-    
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    
-    @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
-    }
-    </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
@@ -62,7 +15,7 @@
     </div>
     
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-    <h1>Bienvenidos a Casa ALexis</h1>
+    <h1>Bienvenidos a Casa Alexis</h1>
     <script>
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
@@ -71,6 +24,10 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
+    
     </script>
+     <div class="footer">
+     <a href="https://www.w3schools.com/html/" target="_blank" style= "text-align: bottom">"How I made this Site"</a>
+     </div>  
   </body>
 </html>
