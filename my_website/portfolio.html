@@ -2,30 +2,40 @@
 	<html lang="en">
 	  <head>
 	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    <title>Portfolio</title>
         <link rel="stylesheet" type="text/css" href="style.css">	 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">	  
 	  </head>
-	  <body>
-	      <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="portfolio.html">Portfolio</a>
-  <a href="about_me.html">About Me</a>
-  <a href="#">PlaceHolder</a>
-</div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-<h1>This is My Portfolio</h1>
-<p>This is where I keep my achievements if I had any.</p>
-	  </body>
-	</html>
+	<body>
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="index.html">Home</a>
+		  <a href="portfolio.html">Portfolio</a>
+		  <a href="about_me.html">About Me</a>
+		  <a href="#">PlaceHolder</a>
+		</div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+			        
+		<div class="container">
+			<div class="jumbotron" style="background-image:url(images/orange.png);">
+				<h1 style="color:#50d8a8">This is my portfolio</h1>
+				<p style="color:#50d8a8">This is where I would keep my achivements, if I had any</p>
+			</div>
+		</div>
+		
+		<script>
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "250px";
+		}
+		
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		}
+		</script>
+		 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	  
+  </body>
+</html>
